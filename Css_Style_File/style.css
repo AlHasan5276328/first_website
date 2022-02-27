@@ -1,0 +1,50 @@
+p{
+    text-align: justify;
+    
+}
+dim{
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+   
+}
+
+
+.pra{
+    background-color: aqua;
+    color: #e40d0d;
+    border: 10px dashed #8506fc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 75%;
+    height: 150px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bea{
+    color: #000000;
+}
+
+h1.bea{
+    text-align: center;
+    font-size: 100px;
+    color: aqua;
+    border: 50px solid royalblue;
+}
+
+.blog{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    width: 30%;
+    display: inline-block;
+    margin: 1px;
+    padding: 1px;
+    border: 10px dotted #06fc9e;
+    border-radius: 10px;
+}
