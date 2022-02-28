@@ -1,7 +1,22 @@
-p{
-    text-align: justify;
-    
+body{
+    counter-reset: section;
 }
+p::before{
+    counter-increment: section;
+
+    content: "😊" counter(section) " :";
+}
+
+p::after{
+    content: "😊😊😊😊😊";
+}
+
+
+input:focus{
+    font-size: 50px;
+    color: #e40d0d;
+}
+
 dim{
     border: 5px solid red;
     border-radius: 10px;
@@ -9,6 +24,40 @@ dim{
     text-align: center;
    
 }
+a:visited{
+    color: aqua;
+}
+
+h3::before{
+    content: "lkjhgfds ";
+    color: #0d11e4;
+    background-color: beige;
+    font-size: 50px;
+
+}
+
+.special::after{
+    color: blueviolet;
+    content: " Hasan";
+    font-size: 60px;
+    background-color: aquamarine;
+}
+
+.hover_effect :hover{
+    color: #e40d0d;
+    background-color: #06fc9e;
+    font-weight: 700px;
+    border: 10px dotted #8506fc;
+    border-radius: 20px;
+    width: 70%;
+    
+}
+
+li:nth-child(2n+4){
+    color: #0d11e4;
+    background-color: #e4990d;
+}
+
 
 
 .pra{
